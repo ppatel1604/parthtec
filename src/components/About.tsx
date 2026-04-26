@@ -10,16 +10,16 @@ export default function About() {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2 text-slate-400 leading-relaxed space-y-4">
             <p>
-              Hello! I&apos;m Parth, a Senior Platform Engineer based in Auckland, New Zealand, 
+              Hello! I&apos;m Parth, a Senior Platform Engineer based in Auckland, New Zealand,
               with a passion for building scalable, reliable infrastructure.
             </p>
             <p>
-              Currently working at <span className="text-blue-400">Nintex</span>, 
+              Currently working at <span className="text-blue-400">Nintex</span>,
               where I focus on service mesh architecture, GitOps, and cross-cloud platform operations.
             </p>
             <p>
-              When I&apos;m not building infrastructure, I&apos;m a proud dad to a 4-week-old baby girl. 
-              I love learning and trying new things, contributing to open source projects, and traveling 
+              When I&apos;m not building infrastructure, I&apos;m a proud dad to a 4-week-old baby girl.
+              I love learning and trying new things, contributing to open source projects, and traveling
               to explore new places.
             </p>
             <p>
@@ -33,9 +33,8 @@ export default function About() {
               <li>Cross-cloud platform operations across Azure and GCP</li>
               <li>PowerShell and .NET automation</li>
             </ul>
-            <p className="mt-6">
-              <span className="text-blue-400">Favorite tool:</span> k9s &mdash; the terminal UI that sits on top of your 
-              kubeconfig.
+            <p className="mt-4">
+              I also speak <span className="text-blue-400">English</span>, <span className="text-blue-400">Hindi</span>, and <span className="text-blue-400">Gujarati</span>.
             </p>
           </div>
           <div className="md:col-span-1 flex justify-center">

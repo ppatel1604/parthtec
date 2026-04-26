@@ -1,21 +1,15 @@
 const PROJECTS = [
   {
-    title: "External Secrets Operator",
-    description: "Kubernetes operator for injecting secrets from AWS Secrets Manager, HashiCorp Vault, and other providers.",
-    tech: ["Go", "Kubernetes", "AWS", "Terraform"],
-    link: "https://github.com/ppatel1604/external-secrets",
-  },
-  {
     title: "Istio Ambient Preflight",
     description: "Validation script for Istio ambient mesh deployment configurations.",
     tech: ["PowerShell", "Kubernetes", "Istio"],
     link: "https://github.com/ppatel1604/istio-ambient-preflight",
   },
   {
-    title: "Budget Tracker",
-    description: "Full-stack personal finance tracking application with .NET backend and React frontend.",
-    tech: ["React", ".NET", "Docker", "Cypress"],
-    link: "https://github.com/ppatel1604/budget-tracker",
+    title: "Personal Portfolio",
+    description: "Personal portfolio website for showcasing my skills and projects.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Opencode"],
+    link: "https://github.com/ppatel1604/parthtec",
   },
   {
     title: "Kubernetes Multi-Cluster",
@@ -30,7 +24,7 @@ export default function Projects() {
     <section id="projects" className="min-h-screen py-32 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-white mb-12 flex items-center gap-4">
-          <span className="text-blue-400">04.</span>
+          <span className="text-blue-400">05.</span>
           <span>Some Things I&apos;ve Built</span>
           <div className="h-px bg-slate-700 flex-1 ml-4" />
         </h2>

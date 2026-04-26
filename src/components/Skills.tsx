@@ -1,8 +1,8 @@
 const SKILLS = {
-  "Platform & Orchestration": ["Kubernetes", "Istio", "ArgoCD", "Flux", "Docker", "Helm"],
-  "Cloud & Infrastructure": ["Azure", "AWS", "GCP", "Terraform", "Pulumi"],
-  "Languages & Tools": ["Go", "Python", "PowerShell", ".NET", "C#", "TypeScript"],
-  "DevOps & Observability": ["GitHub Actions", "Jenkins", "Prometheus", "Grafana", "ELK Stack", "OAuth2-Proxy"],
+  "Platform & Orchestration": ["Kubernetes", "Istio", "ArgoCD", "Docker", "Helm"],
+  "Cloud & Infrastructure": ["Azure", "AWS", "GCP", "Terraform"],
+  "Languages & Tools": ["Go", "PowerShell", ".NET", "C#", "TypeScript"],
+  "DevOps & Observability": ["GitHub Actions", "Prometheus", "Grafana", "OAuth2-Proxy", "Teamcity", "Octopus"],
 };
 
 export default function Skills() {
@@ -10,7 +10,7 @@ export default function Skills() {
     <section id="skills" className="min-h-screen py-32 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-white mb-12 flex items-center gap-4">
-          <span className="text-blue-400">03.</span>
+          <span className="text-blue-400">04.</span>
           <span>Skills & Technologies</span>
           <div className="h-px bg-slate-700 flex-1 ml-4" />
         </h2>

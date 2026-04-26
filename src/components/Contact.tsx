@@ -9,18 +9,30 @@ export default function Contact() {
     <section id="contact" className="min-h-screen py-32 px-6 flex items-center justify-center">
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-white mb-4 flex items-center justify-center gap-4">
-          <span className="text-blue-400">05.</span>
-          <span>What&apos;s Next?</span>
+          <span className="text-blue-400">06.</span>
+          <span>Get In Touch</span>
         </h2>
         <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-          I&apos;m currently looking for new opportunities. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
+          I&apos;m currently employed at Nintex, but I&apos;m always happy to connect for freelance work, volunteer opportunities, or any projects that help the community. Have an interesting idea? Let&apos;s chat!
         </p>
-        <Link
-          href={`mailto:${EMAIL}`}
-          className="inline-block px-6 py-3 border-2 border-blue-500 text-blue-400 rounded-lg font-medium hover:bg-blue-500/10 transition-colors mb-12"
-        >
-          Say Hello
-        </Link>
+        <div className="flex gap-4 justify-center mb-12">
+          <Link
+            href={`mailto:${EMAIL}`}
+            className="px-6 py-3 border-2 border-blue-500 text-blue-400 rounded-lg font-medium hover:bg-blue-500/10 transition-colors"
+          >
+            Say Hello
+          </Link>
+          <a
+            href="/Resume.pdf"
+            download
+            className="px-6 py-3 bg-slate-800 text-slate-200 rounded-lg font-medium hover:bg-slate-700 transition-colors flex items-center gap-2"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            Download Resume
+          </a>
+        </div>
         <div className="flex justify-center gap-8">
           <a
             href={GITHUB_URL}
@@ -77,7 +89,7 @@ export default function Contact() {
           </a>
         </div>
         <p className="text-slate-600 text-sm mt-16">
-          Built with Next.js & Tailwind CSS
+          Built with Next.js & Tailwind CSS using Opencode AI.
         </p>
       </div>
     </section>
