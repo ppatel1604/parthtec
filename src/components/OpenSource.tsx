@@ -8,9 +8,9 @@ const OSS_CONTRIBUTIONS = [
     repo: "external-secrets/external-secrets",
     description: "Added contentType support for Azure Key Vault PushSecret metadata. Allows users to set Azure secret ContentType without parse errors.",
     tech: ["Go", "Kubernetes", "Azure"],
-    status: "open",
+    status: "merged",
     url: "https://github.com/external-secrets/external-secrets/pull/6249",
-    date: "2026-04-20",
+    date: "2026-04-26",
   },
   {
     title: "fix(docs): hide Scarf tracking pixel to remove page whitespace",
