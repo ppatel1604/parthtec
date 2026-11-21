@@ -1,5 +1,5 @@
 const IMPACT = [
-  { value: "20+", label: "Kubernetes clusters across Azure and AWS, dev to regulated production" },
+  { value: "80/20", label: "Azure / AWS split of the Kubernetes platform I run, dev to regulated production" },
   { value: "30%", label: "less compute for the same workloads after the Istio ambient migration" },
   { value: "50%", label: "cost saving on AWS after moving node provisioning to Karpenter" },
   { value: "80%+", label: "of workloads moved to ambient mesh, with zero downtime" },
@@ -16,8 +16,8 @@ export default function Hero() {
           <p className="lede">
             Eight years at Nintex, from software developer to senior platform engineer. I take ideas
             from proof of concept to production across Azure and AWS, and I bring the rest of the
-            engineering org along with me. I run a platform of 20+ Kubernetes clusters across Azure
-            and AWS, from dev through regulated production, while retiring the legacy estate.
+            engineering org along with me. I run a multi-cloud Kubernetes platform, roughly 80% Azure
+            and 20% AWS, from dev through regulated production, while retiring the legacy estate.
             I&apos;m the subject-matter expert for Istio, cluster networking and Kyverno.
           </p>
           <div className="actions">

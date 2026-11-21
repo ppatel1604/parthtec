@@ -131,8 +131,8 @@ export default function Platform() {
         <div className="sec-head">
           <h2 id="plat-h">The platform I run</h2>
           <p>
-            20+ Kubernetes clusters across Azure and AWS, from dev through regulated production, in
-            a hub-and-spoke layout that repeats in every environment. Alongside it, I&apos;m
+            A multi-cloud Kubernetes platform, roughly 80% Azure and 20% AWS, from dev through
+            regulated production, in a hub-and-spoke layout that repeats in every environment. Alongside it, I&apos;m
             retiring the legacy estate it replaces.
           </p>
         </div>
