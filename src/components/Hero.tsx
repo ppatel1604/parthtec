@@ -1,38 +1,46 @@
-import Link from "next/link";
+const IMPACT = [
+  { value: "24", label: "Kubernetes clusters across Azure and AWS, dev to FedRAMP production" },
+  { value: "30%", label: "less compute for the same workloads after the Istio ambient migration" },
+  { value: "50%", label: "cost saving on AWS after moving node provisioning to Karpenter" },
+  { value: "80%+", label: "of workloads moved to ambient mesh, with zero downtime" },
+  { value: "2", label: "engineers I mentored 1-on-1, both promoted" },
+];
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-16 px-6">
-      <div className="max-w-4xl mx-auto text-center">
-        <p className="text-blue-400 font-medium mb-4 tracking-wide uppercase text-sm animate-fadeIn">
-          Hi, my name is
-        </p>
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fadeInUp">
-          Parth Patel.
-        </h1>
-        <h2 className="text-3xl md:text-5xl font-semibold text-slate-400 mb-8 animate-fadeInUp delay-100">
-          I build reliable infrastructure.
-        </h2>
-        <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-12 leading-relaxed animate-fadeInUp delay-200">
-          I&apos;m a Senior Platform Engineer at Nintex specializing in Kubernetes, service mesh,
-          and GitOps. Currently focused on Istio ambient mode migrations and cross-cloud
-          operations across Azure and AWS.
-        </p>
-        <div className="flex gap-4 justify-center animate-fadeInUp delay-300">
-          <Link
-            href="#projects"
-            className="px-6 py-3 border-2 border-blue-500 text-blue-400 rounded-lg font-medium hover:bg-blue-500/10 transition-colors"
-          >
-            Check out my work
-          </Link>
-          <Link
-            href="#contact"
-            className="px-6 py-3 bg-white text-slate-900 rounded-lg font-medium hover:bg-slate-200 transition-colors"
-          >
-            Get in touch
-          </Link>
+    <>
+      <section className="hero" id="top">
+        <div className="wrap">
+          <p className="eyebrow">Senior Platform Engineer · Nintex · Auckland, NZ</p>
+          <h1>I lead platform changes that make Kubernetes cheaper, safer and easier to run.</h1>
+          <p className="lede">
+            Eight years at Nintex, from software developer to senior platform engineer. I take ideas
+            from proof of concept to production across Azure and AWS, and I bring the rest of the
+            engineering org along with me. I run a platform of 24 Kubernetes clusters across Azure
+            and AWS, from dev through production and FedRAMP, while retiring about 10 legacy ones.
+            I&apos;m the subject-matter expert for Istio, cluster networking and Kyverno.
+          </p>
+          <div className="actions">
+            <a className="btn primary" href="#work">
+              Read the case studies
+            </a>
+            <a className="btn ghost" href="#contact">
+              Get in touch
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div className="wrap">
+        <div className="impact" role="list" aria-label="Headline results">
+          {IMPACT.map((item) => (
+            <div role="listitem" key={item.value}>
+              <strong>{item.value}</strong>
+              <span>{item.label}</span>
+            </div>
+          ))}
         </div>
       </div>
-    </section>
+    </>
   );
 }
