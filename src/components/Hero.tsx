@@ -14,9 +14,9 @@ export default function Hero() {
           I build reliable infrastructure.
         </h2>
         <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-12 leading-relaxed animate-fadeInUp delay-200">
-          I&apos;m a Senior Platform Engineer at Nintex specializing in Kubernetes, service mesh, 
-          and GitOps. Currently focused on Istio ambient mode migrations and cross-cloud 
-          operations across Azure and GCP.
+          I&apos;m a Senior Platform Engineer at Nintex specializing in Kubernetes, service mesh,
+          and GitOps. Currently focused on Istio ambient mode migrations and cross-cloud
+          operations across Azure and AWS.
         </p>
         <div className="flex gap-4 justify-center animate-fadeInUp delay-300">
           <Link

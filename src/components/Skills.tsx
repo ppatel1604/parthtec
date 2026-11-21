@@ -1,8 +1,8 @@
 const SKILLS = {
-  "Platform & Orchestration": ["Kubernetes", "Istio", "ArgoCD", "Docker", "Helm"],
+  "Platform & Orchestration": ["Kubernetes", "Istio", "Cilium", "Gateway API", "ArgoCD", "Helm", "Karpenter", "Kyverno", "Docker"],
   "Cloud & Infrastructure": ["Azure", "AWS", "GCP", "Terraform"],
   "Languages & Tools": ["Go", "PowerShell", ".NET", "C#", "TypeScript"],
-  "DevOps & Observability": ["GitHub Actions", "Prometheus", "Grafana", "OAuth2-Proxy", "Teamcity", "Octopus"],
+  "DevOps & Observability": ["GitHub Actions", "Azure DevOps", "Prometheus", "Grafana", "OpenTelemetry", "OAuth2-Proxy", "Microsoft Entra ID", "TeamCity", "Octopus"],
 };
 
 export default function Skills() {

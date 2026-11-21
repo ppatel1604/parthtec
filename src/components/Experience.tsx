@@ -9,7 +9,7 @@ const EXPERIENCES = [
     period: "May 2018 - Present",
     totalDuration: "8 years",
     location: "Auckland, New Zealand",
-    description: "8-year journey from Associate Software Developer to Senior Platform Engineer on a multi-tenant Kubernetes platform serving multiple product engineering teams.",
+    description: "8-year journey from Associate Software Developer to Senior Platform Engineer, running a multi-tenant Kubernetes platform of 24 clusters (AKS and EKS) across 7 environments from dev through production and FedRAMP.",
     progression: [
       { role: "Senior Platform Engineer", period: "April 2024 - Present" },
       { role: "DevOps Engineer", period: "July 2021 - April 2024" },
@@ -18,13 +18,12 @@ const EXPERIENCES = [
       { role: "Associate Software Developer", period: "May 2018 - July 2019" },
     ],
     highlights: [
-      "Service mesh architecture and migrations (Istio sidecar to ambient mode)",
-      "Network policy design with Cilium for mesh-aware workloads",
-      "GitOps with ArgoCD at scale with Helm charts",
-      "OAuth2-Proxy + Microsoft Entra ID SSO integration",
-      "Cross-cloud platform operations across Azure and GCP",
-      ".NET and PowerShell automation for Azure workflows",
-      "Built and maintained CI/CD pipelines and microservices",
+      "Led the Istio sidecar-to-ambient migration: 80%+ of workloads moved with zero downtime, cutting compute 30%",
+      "Proposed and drove a Karpenter PoC to production for a 50% cost saving on AWS",
+      "Moved the Kubernetes API server to its own subnet in the Azure cluster rebuild, cutting running cost 30%",
+      "Introduced Kyverno policy-as-code with Policy Reporter metrics feeding team compliance dashboards",
+      "Designed Cilium network policy, ArgoCD app-of-apps GitOps, Gateway API ingress, and OAuth2-Proxy + Microsoft Entra ID SSO",
+      "Authored the team's design docs; mentored two engineers to promotion and interviewed 5 candidates (4 hired)",
     ],
   },
   {

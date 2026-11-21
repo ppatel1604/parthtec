@@ -29,8 +29,9 @@ export default function About() {
               <li>Service mesh architecture (Istio sidecar to ambient mode migrations)</li>
               <li>Network policy design with Cilium for mesh-aware workloads</li>
               <li>GitOps with ArgoCD & app-of-apps patterns with Helm</li>
-              <li>Ingress and SSO with OAuth2-Proxy + Microsoft Entra ID</li>
-              <li>Cross-cloud platform operations across Azure and GCP</li>
+              <li>Gateway API ingress and SSO with OAuth2-Proxy + Microsoft Entra ID</li>
+              <li>Node autoscaling with Karpenter and policy-as-code with Kyverno</li>
+              <li>Cross-cloud platform operations across Azure and AWS</li>
               <li>PowerShell and .NET automation</li>
             </ul>
             <p className="mt-4">
