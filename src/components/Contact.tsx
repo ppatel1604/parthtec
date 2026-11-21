@@ -1,4 +1,4 @@
-const EMAIL = "p.patel81@yahoo.com";
+const EMAIL = "parth@parthtec.dev";
 const LINKEDIN_URL = "https://www.linkedin.com/in/ppatel3";
 const GITHUB_URL = "https://github.com/ppatel1604";
 
