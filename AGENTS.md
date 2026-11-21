@@ -25,7 +25,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 - `next.config.ts` sets `output: 'export'` and `trailingSlash: true`; the deployable site is `out/`.
 - **The live site is Cloudflare Pages**, not GitHub Pages. Cloudflare's Git integration builds every push to `main` with `npx next build`, publishes `out/`, and serves it at `parthtec.dev`. There is no workflow file in this repo. Check build results in the Cloudflare dashboard's build log. A failed Cloudflare build leaves the previous deployment live.
-- GitHub Pages is also enabled (legacy mode, `main` branch, repo root), so a `pages-build-deployment` run appears on every push. It has no build step: it publishes the raw repo with the README as the home page at `ppatel1604.github.io/parthtec`. It is not the site, and a green run there says nothing about the real deploy.
+- GitHub Pages is disabled on purpose. Don't re-enable it, and don't add a Pages workflow or `CNAME` file. In legacy mode it had no build step, so it only published the raw repo with the README as its home page, and its green `pages-build-deployment` runs were easy to mistake for the real deploy.
 - Pages are cached at the edge and in browsers. To check a deploy, fetch with a cache-busting query (`https://parthtec.dev/?v=<timestamp>`) or open the deployment's own `*.parthtec.pages.dev` URL.
 - `public/Resume.pdf` is exported from the résumé document and must match the site's content and contact details.
 - The contact address is `parth@parthtec.dev`, forwarded by Cloudflare Email Routing.
